@@ -12,7 +12,7 @@ body {
 #title {
 	font-family: Georgia;
 	font-weight: bold;
-	font-size: 450%;
+	font-size: 400%;
 	padding: 5% 2% 0% 2%;
 	background: #8BD8BD;
 	color: #243665;
@@ -53,12 +53,12 @@ a:hover {
 	max-width: 95%;
 }
 
-#search-content {
+#content {
 	margin: 5% 0% 0% 5%;
 	text-align: left;
 }
 
-#search-content p {
+#content p {
 	margin-bottom: 2%;
 }
 
@@ -70,17 +70,21 @@ button {
 	cursor: pointer;
 }
 
-#art-content {
+#art-content{
+	margin:2%;
+}
+
+#art-info {
 	text-align: left;
 	margin: 5% 5% 5% 5%;
 }
 
-#back{
-	margin: 2%;
+.body-a{
 	text-align: right;
+	text-decoration: underline;
 }
 
-#back a:hover{
+.body-a a:hover{
 	color: #8BD8BD;
 }
 
