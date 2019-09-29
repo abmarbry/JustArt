@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+  color: #FEFEFE;
+  background:#243665;
+  text-align: center;
+ }
+
+ #title {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 450%;
+   padding: 5% 2% 0% 2%;
+   background: #8BD8BD;
+   color: #243665;
+ }
+
+ #nav-bar {
+   background: #8BD8BD;
+   padding: 2%;
+ }
+ #nav-bar a{
+   padding-left: 2%;
+ }
+
+ a {
+   color: #FEFEFE;
+   text-decoration: none;
+ }
+
+ a:visited {
+    color: #EFEFEF;
+ }
+
+ a:hover {
+   color: #243665;
+ }
+
+ #grid{
+   margin: 3%;
+   display: grid;
+   grid-gap: 2%;
+   grid-template-columns: auto auto;
+ }
+
+ .art img{
+   max-width: 100%;
+ }
